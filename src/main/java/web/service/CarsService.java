@@ -1,11 +1,11 @@
 package web.service;
 
-import org.springframework.stereotype.Component;
-import web.Model.Car;
+import org.springframework.stereotype.Service;
+import web.model.Car;
 
 import java.util.List;
 
-@Component
+@Service
 public class CarsService {
 
     public static List<Car> showCars(List<Car> cars, Integer amount) {

@@ -1,4 +1,4 @@
-package web.Model;
+package web.model;
 
 public class Car {
 
@@ -39,7 +39,7 @@ public class Car {
     @Override
     public String toString() {
         return "Manufacturer: " + manufacturer +
-                "Model: " + carModel +
+                "model: " + carModel +
                 "Date of production: " + dateOfProduction;
     }
 }
